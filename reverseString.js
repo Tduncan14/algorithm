@@ -14,10 +14,10 @@ function reverseString(){
         /// attaches a method to  previously variable and keeps the method inside
      var join = reverseString.join("");
 
-     // assign the value of string to 
+     // assign the value of join to  str
 
-
-
+            str = join;
+ 
      // the solution being return
      return str
 
