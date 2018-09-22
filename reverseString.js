@@ -1,6 +1,8 @@
 // reverse the string algorithim
 
 function reverseString(){
-     var
+     var splitString = str.split();
+
+     console.log(splitString);
 
 }
