@@ -1,0 +1,1 @@
+// factorize with a while loop
