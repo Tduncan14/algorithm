@@ -8,5 +8,10 @@ function factorize() {
     // start the for loop with i == 4
     // then you count backwards from there
 
+    for(var i = num - 1; i > 1; i--){
+        
+    }
+
+
 
 }
