@@ -8,6 +8,19 @@ function reverseString(){
 
       // attaches the reverses method to splitString// that reverse the string letters
      var reverseString = splitString.reverse();
+
+     console.log(reverseString);
+
+        /// attaches a method to  previously variable and keeps the method inside
+     var join = reverseString.join("");
+
+     // assign the value of string to 
+
+
+
+     // the solution being return
+     return str
+
      
 
 }
