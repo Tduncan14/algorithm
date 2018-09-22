@@ -14,7 +14,12 @@ for(var i = str.length -1; i > 0 ; i--){
 newString += str[i]; // or newString = newString + str[i];
 
 /* here is the background
-
+For each iteration: i = str.length -1 and newString = newString + str[i]
+  First iteration: i  =(5-1) = 4  newString ="" + "o"
+  Second iteration: i =(4-1) = 3 newString ="o"+"l"
+  third irteration : i = (3-1) = 2 newString ="ol" +"l"
+  two iteration: i =(2 -1) = 1 newString ="oll" + "e";
+  one iteration: i = ()
 */
 
 }
