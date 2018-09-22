@@ -1,10 +1,12 @@
 // reverse the string algorithim
 
-function reverseString(){
+function reverseString(str){
     // splits the string up and pushes it into a array
-     var splitString = str.split();
+    var str ;
+     var splitString = str.split("");
 
-     console.log(splitString);
+     console.log("work");
+     //console.log(splitString);
 
       // attaches the reverses method to splitString// that reverse the string letters
      var reverseString = splitString.reverse();
@@ -17,6 +19,8 @@ function reverseString(){
      // assign the value of join to  str
 
             str = join;
+
+            console.log(str);
  
      // the solution being return
      return str
