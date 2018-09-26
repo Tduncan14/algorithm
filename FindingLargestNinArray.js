@@ -14,11 +14,15 @@ function largestOfFour(arr) {
      for(var j = 0 ; j < arr[i].length; i++) {
          /* the starting point, index 0 , corresponds to the first sub -array */
           
-         if(arr[i][j] > largestNumber[i]){
+         if(arr[i][j] > largestNumbers[i]){
            // reassigning the largestNumber value to array[i][j] value
             
+           largestNumbers[arrayIndex] = arr[i][j];
          }
 
         }
     }
+    return largestNumbers
 }
+
+  largestNumbers[[44,45,78,9],[22,89,90,15],[80,28,39,45],[1,2,4,5]];
