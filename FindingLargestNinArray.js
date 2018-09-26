@@ -7,4 +7,18 @@ function largestOfFour(arr) {
     var largestNumbers = [0,0,0,0];
 
     // Step 2. Create the first For loop that will iterate through the arrays
+    for(var i = 0; i < arr.length; i++){
+        /* The starting point, index 0, corresponds to the first sub- array */
+    
+    // Step 3. Create the second For loop that will iterate through the sub -array
+     for(var j = 0 ; j < arr[i].length; i++) {
+         /* the starting point, index 0 , corresponds to the first sub -array */
+          
+         if(arr[i][j] > largestNumber[i]){
+           // reassigning the largestNumber value to array[i][j] value
+            
+         }
+
+        }
+    }
 }
