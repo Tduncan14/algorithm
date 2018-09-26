@@ -1,0 +1,21 @@
+// Revering the string
+
+// function reverseString(str){
+    // step one create an empty string that will host a new string
+    var newString ="";
+
+    console.log(str);
+
+    // create the for loop that starts at the end index 
+    by subtracting one from the length
+
+    for(var i = str.length - 1 ; i > = 0; i --) {
+        newString += str[i];
+
+    }
+    console.log(newString);
+    return newString;
+}
+
+reversesString("California"); 
+// should ainorfilac

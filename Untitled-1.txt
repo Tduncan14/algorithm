@@ -1,0 +1,21 @@
+// factorizing a number
+.. such as having a number that is 7 * 6*5* 4* 3*1
+
+function factorize(num){
+    if(num === 0 || num === 1){
+        console.log(1);
+        return 1;
+    }
+    // then you start your for loop
+    // then you count backawards from there
+
+    for(var i = num - 1 ; i > 1 ; i --) {
+        // what i am doing in the for loop
+        num = num *i // it can be written as num *= i;
+    }
+    // test to see if it is right
+    // console.log(num);
+    return num;
+}
+
+factorize(num);

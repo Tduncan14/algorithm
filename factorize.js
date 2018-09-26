@@ -7,6 +7,7 @@ function factorize(num) {
         return 1;
     }
     // start the for loop with i == 4
+    // because counting from 0 to 5 using computer science 5 is 4th in a loop
     // then you count backwards from there
 
     for(var i = num - 1; i > 1; i--){

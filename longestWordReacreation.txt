@@ -1,0 +1,25 @@
+// Finding the longest word with a for loop
+
+function findLongestWord(str){
+    // split the word into a array
+    var splitWord = str.split(" ");
+    // to see if it splits up correctly
+    // console.log(splitWord);
+
+    // Create a variable that stores the longest word
+    var longestWord = 0;
+
+    // Now it is time to creae a for to find the longest word
+
+    for(var i = 0 ; i < splitWord.length; i++){
+        if( splitWord[i] > longestWord){
+            // this shows the word in the index
+            longestWord = splitWord[i];
+            // longestWord = splitWord[i].length only shows the length in digits
+        }
+        console.log(longestWord);
+        return longestWord;
+    }
+}
+
+function findLongestWord("string goes up in here");
